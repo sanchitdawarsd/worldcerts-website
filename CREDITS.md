@@ -4,7 +4,7 @@ This application uses Open Source components. You can find the source code of th
 -------------------------------------------------------------------------------
 
 ## Project
-@govtechsg/dnsprove
+@worldcerts/dnsprove
 
 ### Source
 https://github.com/OpenCerts/dnsprove
@@ -36,7 +36,7 @@ SOFTWARE.
 -------------------------------------------------------------------------------
 
 ## Project
-@govtechsg/open-attestation
+@worldcerts/open-attestation
 
 ### Source
 https://github.com/OpenCerts/open-attestation

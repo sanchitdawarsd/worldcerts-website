@@ -1,4 +1,4 @@
-import { v2 } from "@govtechsg/open-attestation";
+import { v2 } from "@worldcerts/worldcerts-attestation";
 import { analyticsEvent, sendEventCertificateViewedDetailed, stringifyEvent, validateEvent } from "./index";
 
 const evt = {

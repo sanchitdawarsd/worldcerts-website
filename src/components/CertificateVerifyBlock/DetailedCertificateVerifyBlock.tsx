@@ -1,5 +1,5 @@
-import { VerificationFragment } from "@govtechsg/oa-verify";
-import { isValid } from "@govtechsg/opencerts-verify";
+import { VerificationFragment } from "@worldcerts/wa-verify";
+import { isValid } from "@worldcerts/worldcerts-verifier";
 import React, { ReactElement } from "react";
 import { MESSAGES, TYPES } from "../../constants/VerificationErrorMessages";
 import { getRevokeFragment } from "../../services/fragment";

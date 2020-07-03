@@ -1,4 +1,4 @@
-import { VerificationFragment } from "@govtechsg/oa-verify";
+import { VerificationFragment } from "@worldcerts/wa-verify";
 
 const getFragmentsFor = (fragments: VerificationFragment[], name: string): VerificationFragment =>
   fragments.filter((status) => status.name === name)[0];
@@ -15,7 +15,7 @@ export const getAllButRevokeFragment = (fragments: VerificationFragment[]): Veri
 export const addressInvalid = (fragments: VerificationFragment[]): boolean => {
   const documentStoreIssuedFragment = getFragmentsFor(fragments, "OpenAttestationEthereumDocumentStoreIssued");
   const tokenRegistryMintedFragment = getFragmentsFor(fragments, "OpenAttestationEthereumTokenRegistryMinted");
-  // 2 is the error code used by oa-verify in case of invalid address
+  // 2 is the error code used by @worldcerts/wa-verify in case of invalid address
   return !!(
     (documentStoreIssuedFragment &&
       documentStoreIssuedFragment.reason &&
@@ -28,7 +28,7 @@ export const addressInvalid = (fragments: VerificationFragment[]): boolean => {
 export const certificateNotIssued = (fragments: VerificationFragment[]): boolean => {
   const documentStoreIssuedFragment = getFragmentsFor(fragments, "OpenAttestationEthereumDocumentStoreIssued");
   const tokenRegistryMintedFragment = getFragmentsFor(fragments, "OpenAttestationEthereumTokenRegistryMinted");
-  // 1 is the error code used by oa-verify in case of document / token not issued / minted
+  // 1 is the error code used by @worldcerts/wa-verify in case of document / token not issued / minted
   return !!(
     (documentStoreIssuedFragment &&
       documentStoreIssuedFragment.reason &&

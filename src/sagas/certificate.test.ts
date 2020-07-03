@@ -11,9 +11,9 @@ import {
 } from "./certificate";
 import { MakeCertUtil } from "./testutils";
 
-jest.mock("@govtechsg/open-attestation", () => {
+jest.mock("@worldcerts/worldcerts-attestation", () => {
   // Require the original module to not be mocked...
-  const originalModule = jest.requireActual("@govtechsg/open-attestation");
+  const originalModule = jest.requireActual("@worldcerts/worldcerts-attestation");
 
   return {
     __esModule: true,

@@ -1,5 +1,5 @@
-import { VerificationFragment } from "@govtechsg/oa-verify";
-import { WrappedDocument } from "@worldcerts/open-attestation";
+import { VerificationFragment } from "@worldcerts/wa-verify";
+import { WrappedDocument } from "@worldcerts/worldcerts-attestation";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import React from "react";

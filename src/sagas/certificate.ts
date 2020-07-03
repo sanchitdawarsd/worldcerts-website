@@ -1,6 +1,6 @@
-import { decryptString } from "@govtechsg/oa-encryption";
-import { getData, utils, v2, WrappedDocument } from "@govtechsg/open-attestation";
-import { isValid, verify } from "@govtechsg/opencerts-verify";
+import { decryptString } from "@worldcerts/wo-encryption";
+import { getData, utils, v2, WrappedDocument } from "@worldcerts/worldcerts-attestation";
+import { isValid, verify } from "@worldcerts/worldcerts-verifier";
 import { get } from "lodash";
 import Router from "next/router";
 import { call, put, select, takeEvery } from "redux-saga/effects";
@@ -193,7 +193,7 @@ export function* retrieveCertificateByAction({ payload: { uri, key } }: { payloa
     if (!certificate) {
       throw new Error(`Certificate at address ${uri} is empty`);
     }
-    // if there is a key and the type is "OPEN-ATTESTATION-TYPE-1", let's use oa-encryption
+    // if there is a key and the type is "OPEN-ATTESTATION-TYPE-1", let's use @worldcerts/wo-encryption
     if (key && certificate.type === "OPEN-ATTESTATION-TYPE-1") {
       certificate = JSON.parse(
         decryptString({

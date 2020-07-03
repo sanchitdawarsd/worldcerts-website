@@ -1,5 +1,5 @@
 import "isomorphic-fetch";
-import { WrappedDocument } from "@govtechsg/open-attestation";
+import { WrappedDocument } from "@worldcerts/worldcerts-attestation";
 import { SHARE_LINK_API_URL, SHARE_LINK_TTL } from "../../config";
 
 export function generateLink(certificate: WrappedDocument): Promise<{ id: string; key: string }> {
