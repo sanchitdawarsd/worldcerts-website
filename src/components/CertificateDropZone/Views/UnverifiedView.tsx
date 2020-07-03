@@ -1,5 +1,5 @@
-import { VerificationFragment } from "@govtechsg/oa-verify";
-import { isValid } from "@govtechsg/opencerts-verify";
+import { VerificationFragment } from "@worldcerts/wa-verify";
+import { isValid } from "@worldcerts/worldcerts-verifier";
 import Link from "next/link";
 import React from "react";
 import { TYPES, MESSAGES } from "../../../constants/VerificationErrorMessages";

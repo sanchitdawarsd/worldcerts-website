@@ -1,4 +1,4 @@
-import { VerificationFragment } from "@govtechsg/oa-verify";
+import { VerificationFragment } from "@worldcerts/wa-verify";
 import { isValid } from "@worldcerts/worldcerts-verifier";
 import React from "react";
 import { DefaultView } from "./Views/DefaultView";

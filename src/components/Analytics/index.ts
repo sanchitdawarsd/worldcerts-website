@@ -1,4 +1,4 @@
-import { v2 } from "@govtechsg/open-attestation";
+import { v2 } from "@worldcerts/worldcerts-attestation";
 import registry from "../../../public/static/registry.json";
 import { getLogger } from "../../utils/logger";
 

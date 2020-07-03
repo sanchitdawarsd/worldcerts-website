@@ -1,5 +1,5 @@
 import "isomorphic-fetch";
-import { WrappedDocument } from "@govtechsg/open-attestation";
+import { WrappedDocument } from "@worldcerts/worldcerts-attestation";
 import { EMAIL_API_URL } from "../../config";
 
 export default function sendEmail({

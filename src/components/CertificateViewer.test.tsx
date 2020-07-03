@@ -1,10 +1,10 @@
-import { SchemaId } from "@govtechsg/open-attestation";
+import { SchemaId } from "@worldcerts/worldcerts-attestation";
 import { mount } from "enzyme";
 import React from "react";
 import { CertificateViewer, CertificateViewerProps } from "./CertificateViewer";
 
 jest.mock("next/dynamic", () => () => () => "");
-jest.mock("@govtechsg/open-attestation");
+jest.mock("@worldcerts/worldcerts-attestation");
 jest.mock("./FeatureFlag");
 
 describe("certificateViewer", () => {

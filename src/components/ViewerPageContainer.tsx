@@ -1,5 +1,5 @@
-import { VerificationFragment } from "@govtechsg/oa-verify";
-import { getData, WrappedDocument } from "@govtechsg/open-attestation";
+import { VerificationFragment } from "@worldcerts/wa-verify";
+import { getData, WrappedDocument } from "@worldcerts/worldcerts-attestation";
 import copy from "clipboard-copy";
 import Router from "next/router";
 import React, { Component, ReactNode } from "react";

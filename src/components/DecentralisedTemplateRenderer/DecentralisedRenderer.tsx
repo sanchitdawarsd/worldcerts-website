@@ -1,5 +1,5 @@
-import { FrameConnector, LegacyHostActions } from "@govtechsg/decentralized-renderer-react-components";
-import { getData, obfuscateDocument, utils, WrappedDocument, v2 } from "@govtechsg/open-attestation";
+import { FrameConnector, LegacyHostActions } from '@worldcerts/decentralized-renderer-react-components';
+import { getData, obfuscateDocument, utils, WrappedDocument, v2 } from "@worldcerts/worldcerts-attestation";
 import React, { Ref, useCallback, useEffect, useImperativeHandle, useMemo, useRef, useState } from "react";
 import { LEGACY_OPENCERTS_RENDERER } from "../../config";
 import { analyticsEvent, sendEventCertificateViewedDetailed } from "../Analytics";

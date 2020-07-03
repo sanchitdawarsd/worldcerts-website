@@ -1,4 +1,4 @@
-import { VerificationFragment } from "@govtechsg/oa-verify";
+import { VerificationFragment } from "@worldcerts/oa-verify";
 import { getIdentityVerificationText } from "./CertificateVerifyBlock";
 
 describe("certificate verify block getIdentityVerificationText", () => {

@@ -1,4 +1,4 @@
-import { WrappedDocument } from "@govtechsg/open-attestation";
+import { WrappedDocument } from "@worldcerts/worldcerts-attestation";
 import React, { Component, ReactNode } from "react";
 import { connect } from "react-redux";
 import { NETWORK_NAME } from "../../config";

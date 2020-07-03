@@ -1,5 +1,5 @@
-import { VerificationFragment } from "@govtechsg/oa-verify";
-import { OpencertsRegistryVerificationFragmentData } from "@govtechsg/opencerts-verify";
+import { VerificationFragment } from "@worldcerts/wa-verify";
+import { OpencertsRegistryVerificationFragmentData } from "@worldcerts/worldcerts-verifier";
 import React, { useState } from "react";
 import icons from "../ViewerPageImages";
 import DetailedCertificateVerifyBlock from "./DetailedCertificateVerifyBlock";

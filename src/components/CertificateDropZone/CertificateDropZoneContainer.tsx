@@ -1,5 +1,5 @@
-import { VerificationFragment } from "@govtechsg/oa-verify";
-import { WrappedDocument } from "@govtechsg/open-attestation";
+import { VerificationFragment } from "@worldcerts/wa-verify";
+import { WrappedDocument } from "@worldcerts/worldcerts-attestation";
 import Router from "next/router";
 import React, { Component, ReactNode } from "react";
 import Dropzone from "react-dropzone";
