@@ -17,7 +17,7 @@ test("Sample document is rendered correctly when multiple dns is verified", asyn
   await validateTextContent(t, StatusButton, ["Certificate issued by EXAMPLE.OPENATTESTATION.COM"]);
 
   await validateTextContent(t, CertificateStatusBanner, [
-    "Certificate issuer is not in the SkillsFuture Singapore registry for Opencerts",
+    "Certificate issuer is not in the SkillsFuture Singapore registry for Worldcerts",
   ]);
 
   await t.switchToIframe(IframeBlock);

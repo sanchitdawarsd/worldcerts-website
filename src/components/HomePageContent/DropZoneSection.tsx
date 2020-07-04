@@ -26,7 +26,7 @@ const DraggableDemoCertificate: React.FunctionComponent = () => (
           onDragStart={(e) => e.dataTransfer.setData(DEMO_CERT, "true")}
           onDragEnd={demoCount}
         >
-          <a href={DEMO_CERT} download="demo.opencert" rel="noindex nofollow">
+          <a href={DEMO_CERT} download="demo.worldcerts" rel="noindex nofollow">
             <img style={{ cursor: "grabbing" }} src="/static/images/dropzone/cert.png" width="100%" />
           </a>
         </div>

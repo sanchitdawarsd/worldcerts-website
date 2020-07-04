@@ -60,13 +60,13 @@ export const CertificateViewer: React.FunctionComponent<CertificateViewerProps> 
               className={`${styles["status-banner-container"]} ${styles.valid} exact-print`}
             >
               <div className={`${styles["status-banner"]}`}>
-                Certificate issuer is in the SkillsFuture Singapore registry for Opencerts
+                Certificate issuer is in the SkillsFuture Singapore registry for Worldcerts
               </div>
             </div>
           ) : (
             <div id="status-banner-container" className={`${styles["status-banner-container"]} ${styles.invalid}`}>
               <div className={`${styles["status-banner"]}`}>
-                Certificate issuer is <b>not</b> in the SkillsFuture Singapore registry for Opencerts
+                Certificate issuer is <b>not</b> in the SkillsFuture Singapore registry for Worldcerts
                 <br />
                 <Link href="/faq#verifications-issuers-not-in-registry-meaning">
                   <a>

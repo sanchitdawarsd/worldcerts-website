@@ -37,7 +37,7 @@ describe("certificateViewer", () => {
     const wrapper = mount(<CertificateViewer {...sharedProps} verificationStatus={[]} />);
     expect(wrapper.find("#status-banner-container")).toHaveLength(1);
     expect(wrapper.find("#status-banner-container").text()).toContain(
-      "Certificate issuer is not in the SkillsFuture Singapore registry for Opencerts"
+      "Certificate issuer is not in the SkillsFuture Singapore registry for Worldcerts"
     );
     expect(wrapper.find("#status-banner-container").text()).toContain("What does this mean ?");
   });
@@ -56,7 +56,7 @@ describe("certificateViewer", () => {
     );
     expect(wrapper.find("#status-banner-container")).toHaveLength(1);
     expect(wrapper.find("#status-banner-container").text()).toContain(
-      "Certificate issuer is not in the SkillsFuture Singapore registry for Opencerts"
+      "Certificate issuer is not in the SkillsFuture Singapore registry for Worldcerts"
     );
     expect(wrapper.find("#status-banner-container").text()).toContain("What does this mean ?");
   });
@@ -75,7 +75,7 @@ describe("certificateViewer", () => {
     );
     expect(wrapper.find("#status-banner-container")).toHaveLength(1);
     expect(wrapper.find("#status-banner-container").text()).toContain(
-      "Certificate issuer is in the SkillsFuture Singapore registry for Opencerts"
+      "Certificate issuer is in the SkillsFuture Singapore registry for Worldcerts"
     );
   });
 });
