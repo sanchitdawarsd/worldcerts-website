@@ -123,7 +123,7 @@ class DropZoneSection extends Component<DropZoneSectionProps> {
             <div className={css.description}>
               <h1>An easy way to check and verify your certificates</h1>
               <p>
-                Whether you&#39;re a student or an employer, OpenCerts lets you verify the certificates you have of
+                Whether you&#39;re a student or an employer, Worldcerts lets you verify the certificates you have of
                 anyone from any institution. All in one place.
               </p>
               <DraggableDemoCertificate />
