@@ -42,12 +42,12 @@ const HowItWorks: React.FunctionComponent = () => {
     {
       key: "onetwo",
       text:
-        "When an OpenCerts certificate is created, a unique digital code is tagged to it. This code, together with condensed information from the certificate, is stored on the blockchain.",
+        "When an Worldcerts certificate is created, a unique digital code is tagged to it. This code, together with condensed information from the certificate, is stored on the blockchain.",
     },
     {
       key: "three",
       text:
-        "When you open the .opencert file on this site, its contents will be compared with what was stored on the blockchain.",
+        "When you open the .worldcerts file on this site, its contents will be compared with what was stored on the blockchain.",
     },
     {
       key: "four",

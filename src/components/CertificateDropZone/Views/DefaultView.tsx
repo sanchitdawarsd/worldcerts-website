@@ -21,7 +21,7 @@ export const DefaultView: React.FunctionComponent<DefaultViewProps> = ({ hover, 
     </div>
     {accept ? null : <div>File cannot be read. Please check that you have a valid .opencert file</div>}
     <div className="text-brand-dark" style={{ fontSize: "1.375rem", fontWeight: 500 }}>
-      Drag and drop your opencert file
+      Drag and drop your Worldcerts file
     </div>
     <div className="text-muted">to view its contents</div>
     <div className="text-muted row">

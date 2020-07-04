@@ -34,19 +34,19 @@ export const DEFAULT_SEO = {
   title: "An easy way to check and verify your certificates",
   titleTemplate: `OpenCerts - %s`,
   description:
-    "Whether you're a student or an employer, OpenCerts lets you verify the certificates you have of anyone from any institution. All in one place.",
+    "Whether you're a student or an employer, Worldcerts lets you verify the certificates you have of anyone from any institution. All in one place.",
   openGraph: {
     type: "website",
     url: URL,
     title: "OpenCerts - An easy way to check and verify your certificates",
     description:
-      "Whether you're a student or an employer, OpenCerts lets you verify the certificates you have of anyone from any institution. All in one place.",
+      "Whether you're a student or an employer, Worldcerts lets you verify the certificates you have of anyone from any institution. All in one place.",
     images: [
       {
         url: `${URL}/static/images/opencerts.png`,
         width: 800,
         height: 600,
-        alt: "OpenCerts",
+        alt: "Worldcerts",
       },
     ],
   },

@@ -6,7 +6,6 @@ import PartnerSection from "./HomePageContent/PartnersSection";
 const MainPageContainer: React.FunctionComponent = () => (
   <div className="container-fluid">
     <DropZoneSection />
-    <PartnerSection />
     <AboutSection />
   </div>
 );
