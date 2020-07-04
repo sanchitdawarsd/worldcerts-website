@@ -1,5 +1,5 @@
 {
-  "name": "opencerts-website",
+  "name": "worldcerts-website",
   "version": "2.0.0",
   "scripts": {
     "test": "jest",
